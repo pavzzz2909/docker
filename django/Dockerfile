@@ -1,10 +1,10 @@
 FROM python:3.8
 
-WORKDIR /dj_app
+WORKDIR /crud_3-2
 
-COPY ./dj_app /dj_app
+COPY ./crud_3-2 /crud_3-2
 
-RUN pip install -r /dj_app/requirements.txt
+RUN pip install -r /crud_3-2/requirements.txt
 
 ENV SECRET_KEY django-insecure-nw^y+m^wmxza1asgk+)!ua2qx9)g+#v=6%76-9i8i(6eqiw94j
 ENV DEBUG 1
